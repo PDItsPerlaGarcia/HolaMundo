@@ -4,7 +4,7 @@ public class StringMetodosImportantes {
     public static void main(String[] args) {
         String nom =  "Perla Denisse";
 
-        System.out.println("nom.length() = " + nom.length());
+        System.out.println("nom.length() = " + (nom.length()-3));
         System.out.println("nom.toLowerCase() = " + nom.toLowerCase());
         System.out.println("nom.toUpperCase() = " + nom.toUpperCase());
         System.out.println("nom.equals(\"Perla\") = " + nom.equals("Perla"));
